@@ -79,7 +79,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
   }
   .navbar-custom .nav li a {
     color: white;
@@ -87,7 +87,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
   }
   .navbar-custom .nav li ul.dropdown-menu a {
     color: #333333;
@@ -404,4 +404,11 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
+}
+
+.image-container {
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin: 2%
 }
